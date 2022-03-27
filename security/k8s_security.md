@@ -34,7 +34,7 @@ KubernetesがコントリビューションされているCloud Native Computing
 
 「クラウドネイティブセキュリティの4C」と呼ばれる各レイヤで整理されることがあります。コンテナにおける4C(Cloud、Cluster、Container、Code)について簡単に記載します。なお、本記事で取り上げる、PodSecurityPolicyは**Clusterレイヤ**での対策です。
 
-![コンテナにおける4C](../img/juku/4c.png)
+![コンテナにおける4C](../img/security/4c.png)
 (参考)
 <https://kubernetes.io/docs/concepts/security/overview/>
 
@@ -200,7 +200,7 @@ PodSecurityPolicyを作成し、ServiceAccountと紐づけます。
 
 ServiceAccountとClusterRoleとPodSecurityPolicyの紐づけのイメージを以下に示します。
 
-![ServiceAccountとClusterRoleとPodSecurityPolicyの紐づけ](../img/juku/sa-psp.png)
+![ServiceAccountとClusterRoleとPodSecurityPolicyの紐づけ](../img/security/sa-psp.png)
 
 ### PodSecurityPolicyの適用確認
 
