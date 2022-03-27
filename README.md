@@ -23,7 +23,10 @@ I write my result of operation and management of kubernetes (k8s).
 |k8s-node-1 | 192.168.56.102
 |k8s-node-2 | 192.168.56.103
 
-
 ## install
 
-## learning method
+1. [kubeadmのインストール](./kubeadm/install.md)
+
+## security
+
+1. [[Kubernetes]コンテナでのセキュリティ対策](./security/k8s_security.md)
